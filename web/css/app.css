@@ -1,0 +1,20 @@
+.eye{
+    background-color: black;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.eye::before{
+    content: '';
+    position: absolute;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+}
+.blm{
+    position: relative;
+    left: 00%;
+    /* height: fit-content; */
+}
